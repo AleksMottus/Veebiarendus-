@@ -2,6 +2,9 @@
     background-color: lightgray;
 }
 .konteiner{
+    
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid gray;
     width: 358px;
     height: 238px;
@@ -9,3 +12,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.label{background-color: lightslategray;}
+body{
+    background-size: cover;
+    background-color: lightseagreen;
+    background-image: url("backgroundpicture.jpg");
+    background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+}
+.logo{display: center;}
