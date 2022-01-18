@@ -52,3 +52,13 @@ body{
      font-style: italic;
      font-family: Georgia, 'Times New Roman', Times, serif;
  }
+ .loenupp{
+     border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    background-color: gray;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
