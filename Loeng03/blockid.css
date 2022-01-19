@@ -1,19 +1,18 @@
 .konteiner{
    background-color: rgb(180, 238, 20);
-   width: 80%;
    max-width: 900px;
    margin-left: auto;
    margin-right: auto;
    display: flex;
-   justify-content: right;
+   justify-content: flex-start;
    flex-wrap: wrap;
+   height: fit-content;
 
 }
 body{
     display: flex;
-    align-content: center;
-    height: 100%;
-    width: 100%;
+    align-items: flex-end;
+    height: 100vh;
 }
 .block{
     width: 150px;

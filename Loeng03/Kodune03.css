@@ -3,9 +3,11 @@
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Fira Sans Condensed', sans-serif;
+  height: fit-content;
 }
 
-.blockA{
+.block{
+    overflow: auto;
     float: left;
     float: right;
     padding: 10px;
@@ -14,28 +16,7 @@
     border-style: solid;
     border-width: 1px;
     border-color: black;
-}
-.blockB{
-    float: right;
-    float: right;
-    padding: 10px;
-    background-color: rgb(232, 252, 176);
-    width: 25%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    ;
-}
-.blockC{ 
-    float: right;
-    float: right;
-   
-    background-color: rgb(232, 252, 176);
-    width: 25%;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    min-width: 200px;
 }
 h2{
     font-size: 45px;

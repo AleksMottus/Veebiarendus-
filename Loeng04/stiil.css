@@ -1,0 +1,72 @@
+
+header img {
+    width: 100px;
+}
+header {
+    
+    background-color: rgb(229, 255, 163);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none; 
+}
+nav {
+    display: flex;
+    background-color: black;
+    height: 50px;
+    justify-content: center;
+}
+nav > ul > li > a {
+color: whitesmoke;
+padding-right: 10px;
+}
+main {
+    display: flex;
+    height: max-content;
+
+}
+main section {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 80%;
+    height: max-content;
+}
+main aside {
+    background-color: blanchedalmond;
+    height: 300px;
+    width: 20%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+}
+.pildiga-blokk {
+    display: flex;
+
+}
+.pildiga-blokk img {
+    width: 40%;
+    min-width: 200px;
+    margin-right: 10px;
+    height: 180px;
+}
+.pildiga-blokk p {
+    text-align: justify;
+}
+.reklaam {
+    width: 100%;
+    
+}
+main aside a {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.label{
+    margin-top: 7px;
+}
