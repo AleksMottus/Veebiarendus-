@@ -34,10 +34,11 @@ main section {
     height: 300px;
     width: 80%;
     height: max-content;
+    
 }
 main aside {
     background-color: blanchedalmond;
-    height: 300px;
+    height: 400px;
     width: 20%;
     min-width: 160px;
     display: flex;
@@ -60,6 +61,9 @@ main aside {
 }
 .reklaam {
     width: 100%;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    height: 30%;
     
 }
 main aside a {
@@ -69,4 +73,32 @@ main aside a {
 }
 .label{
     margin-top: 7px;
+}
+footer{
+    background-color: rgb(245, 245, 245);
+    height: 100px;
+    width: 100%;
+ 
+}
+article{
+    background-color: rgb(245, 245, 245);
+    flex-wrap: nowrap;
+}
+.jalus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding-left: 10px
+}
+.jalus a{
+    background-color: rgb(229, 255, 163);
+    border-style: solid;
+    border-color: gray;
+    border-width: 3px;
+    margin-left: 10px;
+}
+.jalus p{
+    align-items: center;
+    display: flex;
 }

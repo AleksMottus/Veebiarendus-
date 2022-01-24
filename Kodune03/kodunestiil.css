@@ -1,0 +1,115 @@
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 35px;
+background-color: rgb(231, 241, 250);
+}
+header > img{
+   width: 150px;
+   height: 150px;
+}
+header > a > img{
+    width: 55px;
+    height: 55px;
+    padding-right: 15px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(50, 112, 245, 0.603);
+    font-size: 23px;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+}
+nav > ul > li{
+    padding: 8px;
+    color: rgb(255, 255, 255);
+}
+.pildiga-blokk {
+    display: flex;
+
+}
+.pildiga-blokk img {
+    width: 40%;
+    min-width: 200px;
+    margin-right: 10px;
+    height: 200px;
+    padding-top: 35px;
+}
+.pildiga-blokk p {
+    text-align: justify;
+}
+.reklaam {
+    width: 100%;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    height: 200px;
+    
+}
+main aside a {
+    width: 80%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.label{
+    margin-top: 7px;
+}
+    
+main {
+    display: flex;
+    height: max-content;
+    background-color: rgba(204, 204, 204, 0.274);
+    background-image: url("taust2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+main section {
+    height: 300px;
+    width: 80%;
+    height: max-content;
+    
+}
+main aside {
+    height: 500px;
+    width: 20%;
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.konteiner{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+main > section > p {
+    font-size: 28px;
+    padding-right: 15px;
+}
+main > section > div > p{
+    font-size: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main > section > h1{
+    font-size: 40px;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+main > section > form{
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+    padding-left: 20px;
+}
+footer{
+    background-color: cadetblue;
+    font-size: 20px;
+}
