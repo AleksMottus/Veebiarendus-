@@ -9,14 +9,17 @@ let tervitusElement = document.getElementById("tervitus")
 if (kasutajaNimi.length == 0) {
     tervitus = "Sul jäi nimi sisestamata"
 }
-if (kasutajaNimi == "aleks") {
-    tervitus = "No tere hommmikust Aleksikene"
-}
-tervitus = tervitus + "<h2>Tähed sinu nimes</h2>"
 
+if (kasutajaNimi.length > 6) {
+    tervitus = "Sul on nii ilus pikk nimi"
+}
+if (kasutajaNimi.length < 6) {
+    tervitus = "Sul on nii ilus lühike nimi"
+}
+if (kasutajaNimi.length == 6) {
+    tervitus = "sul on nii ilus keskmine nimi"
+}
 tervitusElement.innerHTML = tervitus
 console.log(tervitus)
 
-for (let index = 0; index < kasutajaNimi.length; index++) {
-    tervitus += "<div>Täht nr " + index + kasutajaNimi[index] + "</div>"
-}
+
