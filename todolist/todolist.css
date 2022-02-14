@@ -1,0 +1,12 @@
+h1{
+  text-align: center;
+}
+button{
+  float: right;
+}
+.valjund{
+justify-content: center;
+
+  margin-top: 10rem;
+  border-style: solid;
+}

@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 980px;
+    height: 750px;
 }
 .paislogo{
     width: 67px;
@@ -122,4 +122,12 @@
         background: transparent url(./assets/Hills.png) 50% 50% no-repeat padding-box;
     }
     
+}
+.sisend{
+    max-width: 30%;
+    padding-left: 10rem;
+    padding-top: 5rem;
+}
+.sisend label{
+    font-weight: 800;
 }
