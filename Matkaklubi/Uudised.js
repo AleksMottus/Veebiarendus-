@@ -1,4 +1,5 @@
-const uudised = [
+
+let uudised = [
     {
         id: 0,
         pealkiri: "Uudise pealkiri",
