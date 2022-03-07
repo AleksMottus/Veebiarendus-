@@ -1,23 +1,32 @@
+function looTask(vaiketask){
+  return`
+  <div>Ülesanne:${task.sisu} Tähtaeg: ${task.tahtaeg}</div>
 
-let ylesanded = [taskTekst,tahtsusTekst,aegTekst]
-
-
-function looylesanne(ylesanne) {
-  let taskTekst = document.getElementById("ylsisend").value
-  let tahtsusTekst = document.getElementById("tahtsus").value
-  let aegTekst = document.getElementById("tahtaeg").value
-  document.getElementById("ylkoht").innerHTML = "Ülesanne : " + taskTekst
-  document.getElementById("tahtsuskoht").innerHTML ="Ülesande tähtsus: " + tahtsusTekst
-  document.getElementById("aegkoht").innerHTML = "Täitmise tähtaeg: " + aegTekst
-  ylesanded.push(ylesanne)
-  naitaylesandeid()
+  `
+  
 }
-function naitaylesandeid(){
-let valjundElement = document.getElementById("valjundelement")
-let valjundHTML = ''
-    for (let i = 0; i < ylesanded.length; i++) {
-        valjundHTML+= looylesanne(ylesanded[i])
-    }
-    valjundHTML += '</div>'
-    valjundElement.innerHTML = valjundHTML
+let task = []
+
+function lisaTask(vaiketask){
+  let sisuTekst = document.getElementById("tasksisse")
+  let tahtaegTekst = document.getElementById("tahtaegsisse")
+  let vaiketask = {
+    sisu: sisuTekst,
+    tahtaeg: tahtaegTekst,
   }
+
+  task.push(vaiketask)
+}
+
+function naitaTaski(){
+  let valjundElement = document.getElementById("valjund")
+  let valjundHTML = ''
+  valjundHTML += '<div class="task">'
+  for (let i = 0; i< task.length; i++){
+    valjundHTML+= looTask(task[i])
+  }
+  valjundHTML+='</div>'
+  valjundElement.innerHTML = valjundHTML
+}
+
+naitaTaski()

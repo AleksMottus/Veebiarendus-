@@ -1,12 +1,9 @@
+.container{
+  margin-top: 3rem;
+}
+.sisend{
+  width: 65% !important;
+}
 h1{
-  text-align: center;
-}
-button{
-  float: right;
-}
-.valjund{
-justify-content: center;
-
-  margin-top: 10rem;
-  border-style: solid;
+  font-size: 3.5rem !important;
 }

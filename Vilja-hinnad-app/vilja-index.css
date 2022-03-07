@@ -1,0 +1,21 @@
+.navigatsioon{
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.navigatsioon a{
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    font-size: 17px;
+}
+.navigatsioon a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.navigatsioon a.active{
+    background-color: #04AA6D;
+    color: white;
+}
